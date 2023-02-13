@@ -1,0 +1,26 @@
+1)
+
+a)Ze zadanych prvku si muzeme vytvorit binarni haldu nasledovne
+
+
+
+
+
+2)
+# a) Nahrany soubor 'hladinaObsahujiciX.py'
+
+# b)funkce hladina vrati spravny vysledek ( spravnou hladinu ), protoze pri kazdem vlozeni ditete do seznamu se zkontroluje jeho hodnota. Pokud hladina zadane x obsahuje, dovkladaji se deti vrcholu, ktere zbyvaji, prerusi se while opakovani a vrati se seznam obsahujici hodnoty vrcholu v teto hladine. Pokud ovsem ne, seznam, ktery nyni prochazel se vymaze, listy se prohodi a proces se opakuje na hladine o jedna nizsi.
+
+# c) Ze zacatku probiha inicializace dvou seznamu v konstantnim case (O(1)). Necht p je pocet hladin. While opakovani muze probehnout nejvice p-krat, v i-te iteraci while opakovani se projde seznam vrcholu na i-te hladine, tedy ve vysledku se kazdy vrchol projde prave jednou. V kazde j-te iteraci for opakovani probehnou dve podminky, ktere probihaji v konstantnim case. Tedy v nejhorsim pripade, kdy zadana hodnota se bude vyskytovat na posledni hladine, funkce projde kazdy vrchol prave jednou (O(n)) a u kazdeho vrcholu rpobehnou dve podminky (O(1)). O(1+n*1) = O(n)
+
+3)
+
+# a)
+
+# b)
+
+#    b1) postfix notace
+
+#    b2) prefix notace
+
+# [*,/,-,+,-,6,7,-,3,4,5,1,2]

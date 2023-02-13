@@ -1,0 +1,10 @@
+(5x^3+6x^2-3x+2) : (5x+2) = 1x^2
+-()
+
+
+
+for item in firstPoly:
+	bit += item : secondPoly[0]
+	substractionBit = 0
+	for itemTwo in firstPoly:
+		substractionBit += bit * itemTwo
